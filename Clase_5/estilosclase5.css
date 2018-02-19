@@ -1,0 +1,31 @@
+body {
+	background-image: url("desert.jpg");
+	background-repeat:no-repeat;
+	background-color: rgba(70,45,35,0.9);
+	color: rgba(0,70,0,0.9);	
+	 }
+	 p
+	 {
+	 	background-color: rgba(99,99,99,0.9);
+	 	padding-left: 50px;
+	 	padding-right: 50px;
+	 	padding-bottom: 25px;
+	 	padding-top: 25px;
+
+	 	margin-bottom: 60px;
+	 	margin-top: 25px;
+	 	margin-left: 12px;
+	 	margin-right: 12px;
+
+
+	 	border-style: dotted;
+	 	border-right-width:  15px;
+	 	border-left-width: 5px;
+	 	border-top-width: 20px;
+	 	border-bottom-width: 10px;
+
+
+
+	 	
+
+	 }
