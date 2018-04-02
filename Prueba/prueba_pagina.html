@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <title>Hangman | enfasis 1</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+    
+
+</head>
+
+<body>
+    <div id="Introduccion">
+        <div id="textointro">
+            <p>Bienvenido a el juego</p>
+            <p>Seleciona la dificulata del hangman</p>
+            <div id="botondificultad">
+                <div id="f" onclick="f()">Fácil</div>
+                <div id="m" onclick="m()">Medio</div>
+                <div id="d" onclick="d()">Díficl</div>
+            </div>
+        </div>
+    </div>
+    <div id="Categorias">
+        <p>Seleciona la categoria: </p>
+        <div id="PresionarCategoria">
+            <div id="categoria">
+                <div id="categoria1">
+                    <div id="color" onclick="playC()">Colores</div>
+                    <div id="animales" onclick="playA()">Animales</div>
+                </div>
+                <div id="categoria2">
+                    <div id="pais" onclick="playP()">Paises</div>
+                    <div id="reto" onclick="playR()">Reto</div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div id="hanhan">
+        <div>
+            <p id = "vidas"></p>
+            <p id = "cat"></p>
+        </div>
+        <div id="alfabeto">            
+        </div>
+        <div id = "hueco">
+        </div>
+        <div id = "letra_vacia">                
+        </div>
+        <p></p>
+        <!--<p>Pista o ayuda: </p>-->  
+        <canvas id="lienzo"></canvas>
+        <div>
+            <button id="ayuda">Ayuda</button>
+            <button id="restart">Juegar de nuevo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
